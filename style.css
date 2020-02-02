@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(47, 150, 163), rgb(1, 20, 131));
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    padding: 3.5rem;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-block-start: -2rem;
+    background-color: black;
+}
+
+.location, .temperature {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.degree-section {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.degree-section h2 {
+    /* color: black; */
+    font-size: 3rem;
+}
+
+.degree-section span {
+    margin:10px;
+    /* color: black; */
+    font-size: 2rem;
+}
+
+.summary {
+    font-size: 1.2rem;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    margin-block-start: 2rem;
+    background-color: black;
+}
+
+footer p, footer i {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-inline-start: 10px;
+}
+
+footer h6 {
+    margin-block-start: 20px;
+}
